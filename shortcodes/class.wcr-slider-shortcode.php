@@ -23,6 +23,7 @@ if (!class_exists('Wcr_Slider_Shortcode')) {
             wp_enqueue_script('wcr-slider-main');
             wp_enqueue_script('wcr-slider-options');
             wp_enqueue_style('css');
+            wp_enqueue_style('frontend');
             return ob_get_clean();
         }
 

@@ -98,6 +98,7 @@ if (!class_exists('Wcr_Slider')) {
             wp_register_script( 'wcr-slider-main', WCR_SLIDER_URL .'vendor/flexslider/jquery.flexslider-min.js',array('jquery'),WCR_SLIDER_VERSION, true );
             wp_register_script( 'wcr-slider-options', WCR_SLIDER_URL .'vendor/flexslider/flexslider.js',array('wcr-slider-main'), WCR_SLIDER_VERSION,true );
             wp_register_style(  'css', WCR_SLIDER_URL .'vendor/flexslider/flexslider.css');
+            wp_register_style(  'frontend', WCR_SLIDER_URL .'assets/css/frontend.css');
         }
     }
 }
